@@ -21,3 +21,9 @@ for (let i = 2; i < n; i++) {
     a = b;
     b = c;
 }
+for (let i = 2; i < n; i++) {
+    let c = a + b;
+    console.log(c);
+    a = b;
+    b = c;
+}
